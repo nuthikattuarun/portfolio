@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
-import { Github, Linkedin } from "@/components/common/Icons";
+import { GitHub, LinkedIn } from "@/components/common/Icons";
 
 export default function Hero() {
   return (
@@ -45,11 +45,11 @@ export default function Hero() {
         </div>
 
         <div className="hero-socials">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
-            <Github size={20} />
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <GitHub size={20} />
           </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
-            <Linkedin size={20} />
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <LinkedIn size={20} />
           </a>
           <a href="#about" className="scroll-link">
             Scroll to explore <ArrowDown size={16} />

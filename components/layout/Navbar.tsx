@@ -3,8 +3,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Github, Linkedin } from "@/components/common/Icons";
-
+import { GitHub, LinkedIn } from "@/components/common/Icons";
 const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
@@ -34,10 +33,10 @@ export default function Navbar() {
 
                 <div className="navbar-socials">
                     <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
-                        <Github size={19} />
+                        <GitHub size={19} />
                     </a>
                     <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                        <Linkedin size={19} />
+                        <LinkedIn size={19} />
                     </a>
                 </div>
 
