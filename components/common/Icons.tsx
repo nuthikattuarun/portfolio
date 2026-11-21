@@ -15,6 +15,7 @@ export function Github({ size = 20, className = "" }: { size?: number; className
     </svg>
   );
 }
+export const GitHub = Github;
 
 export function Linkedin({ size = 20, className = "" }: { size?: number; className?: string }) {
   return (
@@ -35,3 +36,4 @@ export function Linkedin({ size = 20, className = "" }: { size?: number; classNa
     </svg>
   );
 }
+export const LinkedIn = Linkedin;
